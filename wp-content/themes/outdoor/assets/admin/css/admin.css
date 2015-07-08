@@ -1,0 +1,89 @@
+.od-current-small-icon {
+  max-width: 34px;
+  max-height: 34px;
+  display: inline-block;
+  padding: 0 10px;
+  float: left;
+}
+.od-remove-small-icon {
+  display: none !important;
+}
+.od-remove-small-icon.visible {
+  display: inline-block !important;
+}
+.od-small-icons-box {
+  height: 500px;
+  overflow-y: scroll;
+  display: none;
+  margin: 15px 0;
+}
+.od-small-icons-box.active {
+  display: block;
+}
+.od-small-icons-box > span {
+  width: 34px;
+  height: 34px;
+  padding: 15px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  float: left;
+}
+
+.od-small-icons-box > span:hover {
+  background-color: rgba(93, 142, 191, 0.3);
+}
+
+.od-small-icons-box > span.current {
+  background-color: rgba(93, 142, 191, 0.5);
+}
+
+.social-icon i {
+  vertical-align: middle;
+}
+
+.social-icon.facebook {
+  color: #3c5fb2 !important;
+}
+
+.social-icon.twitter {
+  color: #3799dd !important;
+}
+
+.social-icon.google-plus {
+  color: #dc4c39 !important;
+}
+
+.social-icon.pinterest {
+  color: #cc2127 !important;
+}
+
+.social-icon.linkedin {
+  color: #008cc9 !important;
+}
+
+.social-icon.vk {
+  color: #4e729a !important;
+}
+
+.social-icon.stumbleupon {
+  color: #eb4924 !important;
+}
+
+.od-people-social-btns .od-field {
+  margin-bottom: 10px;
+}
+
+.od-people-social-btns .social-icon {
+  max-width: 30px;
+  width: 5%;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+
+.od-people-social-btns input {
+  width: 95% !important;
+}

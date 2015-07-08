@@ -1,0 +1,8 @@
+@mixin transition($transition1: 0.1s){
+  -webkit-transition: all $transition1 ease-in-out $transition1;
+  -moz-transition: all $transition1 ease-in-out $transition1;
+  -o-transition: all $transition1 ease-in-out $transition1;
+  transition: all $transition1 ease-in-out $transition1;
+}
+$myGreen: #86a200;
+$myRed: #cd3333;

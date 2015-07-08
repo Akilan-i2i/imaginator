@@ -1,0 +1,112 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/intro.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic);
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+.part-15 {
+  z-index: 1; }
+  .part-15 .overlay {
+    background: #fff;
+    opacity: 0.95; }
+
+body.intro .part-15, body.intro #r-slider, body.intro .royalSlider {
+  position: fixed; }
+body.intro #r-slider, body.intro .royalSlider {
+  z-index: 0; }
+body.intro .rsBullets {
+  display: none; }
+body.intro #page {
+  height: 100%;
+  height: auto !important;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+body.intro .page-content {
+  overflow: hidden;
+  padding-bottom: 30px; }
+body.intro .logo {
+  margin: 128px auto 128px;
+  text-align: center; }
+  body.intro .logo h1 {
+    color: #2f4146;
+    font-size: 4.8em;
+    margin-bottom: 0; }
+  body.intro .logo span {
+    color: #2f4146;
+    font-size: 1.2em; }
+body.intro .content {
+  text-align: center; }
+  body.intro .content .left, body.intro .content .right {
+    display: inline-block;
+    margin: 0 37px 110px;
+    width: 388px; }
+  body.intro .content .box a {
+    color: #2f4146;
+    display: block;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%; }
+  body.intro .content .box .prev {
+    background-size: cover;
+    height: 290px;
+    margin: 0 0 30px;
+    position: relative;
+    width: 100%; }
+    body.intro .content .box .prev .part-18 {
+      background-image: url(../images/prev-light.png);
+      background-position: 0 100%;
+      background-size: cover;
+      opacity: .7;
+      -webkit-transition: all 0.05s ease-in-out 0.05s;
+      -moz-transition: all 0.05s ease-in-out 0.05s;
+      -o-transition: all 0.05s ease-in-out 0.05s;
+      transition: all 0.05s ease-in-out 0.05s; }
+    body.intro .content .box .prev:hover .part-18 {
+      opacity: 1; }
+    body.intro .content .box .prev img {
+      height: auto;
+      margin-top: 2%;
+      width: 96%; }
+  body.intro .content .box a:hover {
+    color: #777;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear; }
+  body.intro .content .box .light {
+    margin: 0 0 0 auto; }
+body.intro #footer {
+  color: #aaa;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  margin: -30px 0 0;
+  padding: 6px 0;
+  text-align: center; }
+
+@media (max-width: 943px) {
+  body.intro .part-15, body.intro #r-slider, body.intro .royalSlider {
+    height: 1870px !important; } }
+@media only screen and (max-width: 479px) {
+  body.intro .logo h1 {
+    font-size: 2.8em; } }
+@media (max-width: 908px) {
+  body.intro .content .box .prev {
+    margin: 0 0 20px; } }
+@media (max-width: 768px) {
+  body.intro .content .left, body.intro .content .right {
+    margin: 0 0 45px; } }
+@media (max-width: 420px) {
+  body.intro .content .left, body.intro .content .right {
+    width: 300px; }
+  body.intro .content .box .prev {
+    height: 224px; } }

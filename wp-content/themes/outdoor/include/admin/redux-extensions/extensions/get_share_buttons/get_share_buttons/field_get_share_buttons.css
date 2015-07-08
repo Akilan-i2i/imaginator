@@ -1,0 +1,44 @@
+.social-icon i {
+  vertical-align: middle;
+}
+
+.social-icon.facebook {
+  color: #3c5fb2 !important;
+}
+
+.social-icon.twitter {
+  color: #3799dd !important;
+}
+
+.social-icon.google-plus {
+  color: #dc4c39 !important;
+}
+
+.social-icon.pinterest {
+  color: #cc2127 !important;
+}
+
+.social-icon.linkedin {
+  color: #008cc9 !important;
+}
+
+.social-icon.vk {
+  color: #4e729a !important;
+}
+
+.social-icon.stumbleupon {
+  color: #eb4924 !important;
+}
+
+.get-share-icons-fields label {
+  display: block !important;
+  clear: both;
+  margin-bottom: 7px;
+}
+
+.get-share-icons-fields label .social-icon {
+  display: inline-block;
+  font-size: 21px;
+  text-align: center;
+  width: 30px;
+}

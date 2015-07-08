@@ -1,0 +1,89 @@
+/* RS Slider 
+-------------------------------------------------------------------------*/
+.rslides {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+
+  li {
+    -webkit-backface-visibility: hidden;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover !important;
+    
+    &:first-child {
+      display: block;
+      float: left;
+      position: relative;
+    }
+  }
+  img {
+    border: 0;
+    display: block;
+    float: left;
+    height: auto;
+    width: 100%;
+  }
+}
+
+#rslides-1 {
+  z-index: 1;
+}
+
+.rslides_tabs{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  z-index: 999;
+  li{
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0);
+      padding:4px 0px 0px 4px;
+      font-size: 0;
+      margin: 0;
+      -webkit-transition: all 0.05s ease-in-out 0.05s;
+      -moz-transition: all 0.05s ease-in-out 0.05s;
+      -o-transition: all 0.05s ease-in-out 0.05s;
+      transition: all 0.05s ease-in-out 0.05s;
+      a{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display:block;
+        font-size: 0;
+        background: #259e0f;
+        opacity: 0.24;
+        -webkit-transition: all 0.05s ease-in-out 0.05s;
+        -moz-transition: all 0.05s ease-in-out 0.05s;
+        -o-transition: all 0.05s ease-in-out 0.05s;
+        transition: all 0.05s ease-in-out 0.05s;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    &.rslides_here{
+        margin: 0;
+        border: 1px solid #259e0f;
+        padding:3px 0px 0px 3px;
+      a{
+        opacity: 1;
+      }
+    }
+  }
+}
+

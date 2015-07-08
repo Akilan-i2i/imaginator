@@ -1,0 +1,61 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie10.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+.ie10 {
+  span{
+    &.mym {
+      &:before {
+        left: 14px !important;
+      }
+      &:after {
+        left: -15px !important;
+      }
+    }
+  }
+}
+
+/**/
+
+html{
+  &.ie11 {
+    body{
+      &.blog-list {
+        span{
+          &.mym {
+            &:before {
+              left: 13px !important;
+            }
+            &:after {
+              left: -14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ie10{
+  .portfolio {
+    .element-item {
+      .overlay {
+        opacity: 0;
+        background: url(../images/target.png) no-repeat center 20%;
+      }
+
+      &:focus, &:active, &:hover {
+        .overlay {
+          opacity: 1;
+          background: rgba(5, 67, 131, 0.8) url(../images/target.png) no-repeat center 20%;
+        }
+
+        img.p-target{
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

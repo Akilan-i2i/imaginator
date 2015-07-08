@@ -1,0 +1,206 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie8.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+@charset "utf-8";
+
+/* top convas title */
+
+#slide-menu {
+  display: none;
+  &.open-menu {
+    display: block;
+    z-index: 999999;
+  }
+}
+
+.other-style, .front {
+  #wrapper-header{
+    &.fixed {
+      background: #fff;
+    }
+  }
+}
+
+#wrapper-header {
+  &.fixed, &.over-slider {
+    background: #fff;
+  }
+}
+
+#r-slider .royalSlider, #info-topslider.first-page {
+  height: 850px !important;
+}
+
+.slider-overlay {
+  .content-bg, .slider-content .content-box > .bg {
+    display: none !important;
+  }
+  .content-box {
+    .title-box {
+      height: 100% !important;
+      vertical-align: middle !important;
+      text-align: center !important;
+    }
+  }
+  .slider-content {
+    .content-box {
+      h1 {
+        width: 100% !important;
+      }
+      .social-box {
+        margin-top: 7%;
+      }
+    }
+  }
+}
+
+/**/
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* background */
+
+.bg-box {
+  background-repeat: repeat;
+}
+
+/* Pricing */
+
+.cont-pricing {
+  background: #fff;
+}
+
+/* works */
+
+.rslides_nav {
+  &.prev {
+    background-image: url(../images/prev3.png) !important;
+  }
+  &.next {
+    background-image: url(../images/next3.png) !important;
+  }
+}
+
+/* Contacts */
+
+#contacts {
+  #cont-info {
+    background: #fff;
+  }
+}
+
+/* elements */
+
+#info-topslider {
+  h1 {
+    span{
+      &.title {
+        color: #fff;
+      }
+    }
+  }
+}
+
+/* soc icin */
+
+.white {
+  .soc-icon {
+    .fb, .tw, .g-plus, .pinterest, .inst {
+      color: #fff !important;
+    }
+  }
+}
+
+/* tabs */
+
+.tab-content {
+  > .tab-pane {
+    p {
+      display: none;
+    }
+    &.active p {
+      display: block;
+    }
+  }
+}
+
+.invert-elements {
+  .tab-pane.active, .panel-body {
+    background: #fff;
+  }
+  .white-tab {
+    .tab-pane.active, .panel-body {
+      background: none !important;
+    }
+  }
+}
+
+.tab-content {
+  > .active {
+    background: #f4f4f4;
+  }
+}
+
+.nav-tabs {
+  > li {
+    &.active {
+      > a, > a:focus {
+        background: #f4f4f4;
+      }
+    }
+    > a:hover {
+      background: #f4f4f4;
+    }
+  }
+}
+
+/* progress bar */
+
+.invert-elements {
+  .progress-bar {
+    background: #e0e6c0;
+  }
+  .progress {
+    background: #a0b536;
+  }
+}
+
+/* menu collapsed */
+
+#navigation-menu {
+  ul {
+    li{
+      &.collapsed {
+        &.start-collapsed {
+          background-image: url(../images/menu_collapsed.png);
+          background-position: 25px -36px;
+        }
+        background-image: url(../images/menu_collapsed.png);
+        background-position: 25px 14px;
+      }
+    }
+  }
+}
+
+.wrapper-slide-menu-content {
+  width: 300px;
+  overflow-x: none;
+}
+
+#slide-menu {
+  padding-bottom: 150px;
+}
+
+/* responsive-design img */
+
+.img-responsive-design {
+  img {
+    width: auto;
+  }
+}

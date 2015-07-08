@@ -1,0 +1,51 @@
+// buttons in slider. Replace tag "а" with "button"
+.wrapper-carusel, .post-slider, .posted-slider, .slider-people{
+	button.next, button.prev {
+		color: #86a200;
+		background: transparent;
+		border: 0;
+	}	
+}
+.blockquote-slider {
+	.next, .prev {
+		color: #fff;
+	}
+}
+
+// map
+#mapa  {
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#map-canvas {
+	height: 100%;
+}
+#cont-info {
+	z-index: 1;
+	position: relative;
+//	background: #fff;
+	margin: 20px 0;
+	#submit {
+		width: 100%;
+		margin-bottom: 18px;
+	}
+}
+
+// topslider
+#topslider {
+	.container-fluid, .row, #info-topslider {
+		height: inherit;
+	}	
+}
+
+// z-inexs !!!!
+#topslider #info-topslider {
+	z-index: 10;
+} 
+.topslider-text {
+	z-index: 11;
+}

@@ -1,0 +1,282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Outdoor\n"
+"POT-Creation-Date: 2015-06-25 17:24+0200\n"
+"PO-Revision-Date: 2015-06-25 17:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: Itembridge\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../post-types/cpt_client.php:8
+msgid "Clients"
+msgstr ""
+
+#: ../post-types/cpt_client.php:9
+msgid "Client Item"
+msgstr ""
+
+#: ../post-types/cpt_client.php:10 ../post-types/cpt_portfolio.php:12
+#: ../post-types/cpt_service.php:10 ../post-types/cpt_team.php:10
+msgid "Add New Item"
+msgstr ""
+
+#: ../post-types/cpt_client.php:11 ../post-types/cpt_client.php:13
+msgid "Add New Client Item"
+msgstr ""
+
+#: ../post-types/cpt_client.php:12
+msgid "Edit Client Item"
+msgstr ""
+
+#: ../post-types/cpt_client.php:14 ../post-types/cpt_portfolio.php:16
+#: ../post-types/cpt_pricetable.php:14 ../post-types/cpt_quote.php:14
+#: ../post-types/cpt_service.php:14 ../post-types/cpt_team.php:14
+msgid "View Item"
+msgstr ""
+
+#: ../post-types/cpt_client.php:15
+msgid "Search Client"
+msgstr ""
+
+#: ../post-types/cpt_client.php:16
+msgid "No client items found"
+msgstr ""
+
+#: ../post-types/cpt_client.php:17
+msgid "No client items found in trash"
+msgstr ""
+
+#: ../post-types/cpt_client.php:40 ../post-types/cpt_quote.php:40
+msgid "Shortcode"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:10
+msgid "Portfolio"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:11
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:13 ../post-types/cpt_portfolio.php:15
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:14
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:17
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:18
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:19
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:38 ../post-types/cpt_portfolio.php:52
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:39
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:40
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:41
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:42
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:43
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:44
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:45
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:46
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:47
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:48
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:49
+msgid "Separate portfolio categories with commas"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:50
+msgid "Add or remove portfolio categories"
+msgstr ""
+
+#: ../post-types/cpt_portfolio.php:51
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:8
+msgid "Price table"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:9
+msgid "Price table Item"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:10
+msgid "Add Price Item"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:11 ../post-types/cpt_pricetable.php:13
+msgid "Add New Price Item"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:12
+msgid "Edit Price Item"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:15
+msgid "Search Price"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:16
+msgid "No price items found"
+msgstr ""
+
+#: ../post-types/cpt_pricetable.php:17
+msgid "No price items found in trash"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:8
+msgid "Quotes"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:9
+msgid "Quote Item"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:10
+msgid "Add Quote Item"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:11 ../post-types/cpt_quote.php:13
+msgid "Add New Quote Item"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:12
+msgid "Edit Quote Item"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:15
+msgid "Search Quote"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:16
+msgid "No quote items found"
+msgstr ""
+
+#: ../post-types/cpt_quote.php:17
+msgid "No quote items found in trash"
+msgstr ""
+
+#: ../post-types/cpt_service.php:8
+msgid "Services"
+msgstr ""
+
+#: ../post-types/cpt_service.php:9
+msgid "Service Item"
+msgstr ""
+
+#: ../post-types/cpt_service.php:11 ../post-types/cpt_service.php:13
+msgid "Add New Service Item"
+msgstr ""
+
+#: ../post-types/cpt_service.php:12
+msgid "Edit Service Item"
+msgstr ""
+
+#: ../post-types/cpt_service.php:15
+msgid "Search Service"
+msgstr ""
+
+#: ../post-types/cpt_service.php:16
+msgid "No service items found"
+msgstr ""
+
+#: ../post-types/cpt_service.php:17
+msgid "No service items found in trash"
+msgstr ""
+
+#: ../post-types/cpt_team.php:8
+msgid "Team"
+msgstr ""
+
+#: ../post-types/cpt_team.php:9
+msgid "Team Item"
+msgstr ""
+
+#: ../post-types/cpt_team.php:11 ../post-types/cpt_team.php:13
+msgid "Add New Team Item"
+msgstr ""
+
+#: ../post-types/cpt_team.php:12
+msgid "Edit Team Item"
+msgstr ""
+
+#: ../post-types/cpt_team.php:15
+msgid "Search Team"
+msgstr ""
+
+#: ../post-types/cpt_team.php:16
+msgid "No team items found"
+msgstr ""
+
+#: ../post-types/cpt_team.php:17
+msgid "No team items found in trash"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Homepage"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "File URL"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "Image URL"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "Home URL"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "Site URL"
+#~ msgstr "Главная"

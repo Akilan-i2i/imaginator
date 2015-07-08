@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Outdoor\n"
+"POT-Creation-Date: 2015-06-25 17:24+0200\n"
+"PO-Revision-Date: 2015-06-25 17:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: Itembridge\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../shortcodes.php:240
+msgid "Your e-mail"
+msgstr ""
+
+#: ../shortcodes.php:245
+msgid "SUBSCRIBE"
+msgstr ""
+
+#: ../shortcodes.php:497 ../shortcodes.php:517
+msgid "Read More"
+msgstr ""
+
+#: ../shortcodes.php:543 ../shortcodes.php:634
+msgid "Posts not found"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Homepage"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "File URL"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "Image URL"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "Home URL"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~ msgid "Site URL"
+#~ msgstr "Главная"

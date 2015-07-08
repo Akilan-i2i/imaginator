@@ -1,0 +1,163 @@
+/* top convas title */
+/* line 5, ../sass/convertie8.scss */
+#slide-menu {
+  display: none;
+}
+/* line 7, ../sass/convertie8.scss */
+#slide-menu.open-menu {
+  display: block;
+  z-index: 999999;
+}
+
+/* line 13, ../sass/convertie8.scss */
+.other-style #wrapper-header.fixed, .front #wrapper-header.fixed {
+  background: #fff;
+}
+
+/* line 18, ../sass/convertie8.scss */
+#wrapper-header.fixed, #wrapper-header.over-slider {
+  background: #fff;
+}
+
+/* line 23, ../sass/convertie8.scss */
+#r-slider .royalSlider, #info-topslider.first-page {
+  height: 850px !important;
+}
+
+/* line 28, ../sass/convertie8.scss */
+.slider-overlay .content-bg, .slider-overlay .slider-content .content-box > .bg {
+  display: none !important;
+}
+/* line 31, ../sass/convertie8.scss */
+.slider-overlay .content-box .title-box {
+  height: 100% !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+/* line 37, ../sass/convertie8.scss */
+.slider-overlay .slider-content .content-box h1 {
+  width: 100% !important;
+}
+/* line 40, ../sass/convertie8.scss */
+.slider-overlay .slider-content .content-box .social-box {
+  margin-top: 7%;
+}
+
+/**/
+/* line 48, ../sass/convertie8.scss */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* background */
+/* line 55, ../sass/convertie8.scss */
+.bg-box {
+  background-repeat: repeat;
+}
+
+/* Pricing */
+/* line 61, ../sass/convertie8.scss */
+.cont-pricing {
+  background: #fff;
+}
+
+/* works */
+/* line 68, ../sass/convertie8.scss */
+.rslides_nav.prev {
+  background-image: url(../images/prev3.png) !important;
+}
+/* line 71, ../sass/convertie8.scss */
+.rslides_nav.next {
+  background-image: url(../images/next3.png) !important;
+}
+
+/* Contacts */
+/* line 78, ../sass/convertie8.scss */
+#contacts #cont-info {
+  background: #fff;
+}
+
+/* elements */
+/* line 84, ../sass/convertie8.scss */
+#info-topslider h1 span.title {
+  color: #fff;
+}
+
+/* soc icin */
+/* line 91, ../sass/convertie8.scss */
+.white .soc-icon .fb, .white .soc-icon .tw, .white .soc-icon .g-plus, .white .soc-icon .pinterest, .white .soc-icon .inst {
+  color: #fff !important;
+}
+
+/* tabs */
+/* line 99, ../sass/convertie8.scss */
+.tab-content > .tab-pane p {
+  display: none;
+}
+/* line 102, ../sass/convertie8.scss */
+.tab-content > .tab-pane.active p {
+  display: block;
+}
+
+/* line 108, ../sass/convertie8.scss */
+.invert-elements .tab-pane.active, .invert-elements .panel-body {
+  background: #fff;
+}
+/* line 112, ../sass/convertie8.scss */
+.invert-elements .white-tab .tab-pane.active, .invert-elements .white-tab .panel-body {
+  background: none !important;
+}
+
+/* line 118, ../sass/convertie8.scss */
+.tab-content > .active {
+  background: #f4f4f4;
+}
+
+/* line 124, ../sass/convertie8.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+  background: #f4f4f4;
+}
+/* line 128, ../sass/convertie8.scss */
+.nav-tabs > li > a:hover {
+  background: #f4f4f4;
+}
+
+/* progress bar */
+/* line 136, ../sass/convertie8.scss */
+.invert-elements .progress-bar {
+  background: #e0e6c0;
+}
+/* line 139, ../sass/convertie8.scss */
+.invert-elements .progress {
+  background: #a0b536;
+}
+
+/* menu collapsed */
+/* line 146, ../sass/convertie8.scss */
+#navigation-menu ul li.collapsed {
+  background-image: url(../images/menu_collapsed.png);
+  background-position: 25px 14px;
+}
+/* line 147, ../sass/convertie8.scss */
+#navigation-menu ul li.collapsed.start-collapsed {
+  background-image: url(../images/menu_collapsed.png);
+  background-position: 25px -36px;
+}
+
+/* line 155, ../sass/convertie8.scss */
+.wrapper-slide-menu-content {
+  width: 300px;
+  overflow-x: none;
+}
+
+/* line 160, ../sass/convertie8.scss */
+#slide-menu {
+  padding-bottom: 150px;
+}
+
+/* responsive-design img */
+/* line 166, ../sass/convertie8.scss */
+.img-responsive-design img {
+  width: auto;
+}

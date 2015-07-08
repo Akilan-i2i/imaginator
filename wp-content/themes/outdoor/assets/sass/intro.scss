@@ -1,0 +1,162 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/intro.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.part-15 {
+  z-index: 1;
+  .overlay {
+    background: #fff;
+    opacity: 0.95;
+  }
+}
+
+body.intro {
+  .part-15, #r-slider, .royalSlider {
+    position: fixed;
+  }
+  #r-slider, .royalSlider {
+    z-index: 0;
+  }
+  .rsBullets {
+    display: none;
+  }
+  #page {
+    height: 100%;
+    height: auto !important;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+  }
+  .page-content {
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  .logo {
+    margin: 128px auto 128px;
+    text-align: center;
+    h1 {
+      color: #2f4146;
+      font-size: 4.8em;
+      margin-bottom: 0;
+    }
+    span {
+      color: #2f4146;
+      font-size: 1.2em;
+    }
+  }
+  .content {
+    text-align: center;
+    .left, .right {
+      display: inline-block;
+      margin: 0 37px 110px;
+      width: 388px;
+    }
+    .box {
+      a {
+        color: #2f4146;
+        display: block;
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+      }
+      .prev {
+        .part-18 {
+          background-image: url(../images/prev-light.png);
+          background-position: 0 100%;
+          background-size: cover;
+          opacity: .7;
+          -webkit-transition: all 0.05s ease-in-out 0.05s;
+          -moz-transition: all 0.05s ease-in-out 0.05s;
+          -o-transition: all 0.05s ease-in-out 0.05s;
+          transition: all 0.05s ease-in-out 0.05s;
+        }
+        &:hover .part-18 {
+          opacity: 1;
+        }
+        background-size: cover;
+        height: 290px;
+        margin: 0 0 30px;
+        position: relative;
+        width: 100%;
+        img {
+          height: auto;
+          margin-top: 2%;
+          width: 96%;
+        }
+      }
+      a:hover {
+        color: #777;
+        -webkit-transition: all .2s linear;
+        transition: all .2s linear;
+      }
+      .light {
+        margin: 0 0 0 auto;
+      }
+    }
+  }
+  #footer {
+    color: #aaa;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    margin: -30px 0 0;
+    padding: 6px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 943px) {
+  body.intro {
+    .part-15, #r-slider, .royalSlider {
+      height: 1870px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body.intro .logo h1 {
+    font-size: 2.8em;
+  }
+}
+
+@media (max-width: 908px) {
+  body.intro .content .box .prev {
+    margin: 0 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body.intro .content {
+    .left, .right {
+      margin: 0 0 45px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  body.intro .content {
+    .left, .right {
+      width: 300px;
+    }
+    .box .prev {
+      height: 224px;
+    }
+  }
+}

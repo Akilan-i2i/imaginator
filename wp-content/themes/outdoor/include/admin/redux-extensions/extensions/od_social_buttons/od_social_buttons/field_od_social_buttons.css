@@ -1,0 +1,123 @@
+.od-social-buttons-wrap {
+
+}
+
+.od-social-buttons-wrap .social-icons {
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.od-social-buttons-wrap .social-icon {
+  display: inline-block;
+  float: left;
+  font-size: 24px;
+  height: 30px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.od-social-buttons-wrap .social-icon img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/*.od-social-buttons-wrap .social-icon:hover {*/
+  /*background-color: rgba(93, 142, 191, 0.3);*/
+/*}*/
+
+/*.od-social-buttons-wrap .social-icon.selected {*/
+  /*background-color: rgba(93, 142, 191, 0.5);*/
+/*}*/
+
+.od-social-buttons-wrap .social-icon i {
+  vertical-align: middle;
+}
+
+.od-social-buttons-wrap .social-icon.facebook {
+  color: #3c5fb2 !important;
+}
+
+.od-social-buttons-wrap .social-icon.twitter {
+  color: #3799dd !important;
+}
+
+.od-social-buttons-wrap .social-icon.google-plus {
+  color: #dc4c39 !important;
+}
+
+.od-social-buttons-wrap .social-icon.pinterest {
+  color: #cc2127 !important;
+}
+
+.od-social-buttons-wrap .social-icon.linkedin {
+  color: #008cc9 !important;
+}
+
+.od-social-buttons-wrap .social-icon.instagram {
+  color: #2e5e86 !important;
+}
+
+.od-social-buttons-wrap .social-icon.vk {
+  color: #4e729a !important;
+}
+
+.od-social-buttons-wrap .social-icon.youtube {
+  color: #cc181e !important;
+}
+
+.od-social-buttons-wrap .social-field {
+  padding: 5px 0;
+}
+
+.od-social-buttons-wrap .social-field .label {
+  display: inline-block;
+  float: left;
+  line-height: 37px;
+  margin-right: 5px;
+  width: 175px;
+}
+
+.ui-sortable-handle {
+  cursor: move;
+}
+
+.ui-sortable-helper {
+  border: 1px dashed #ccc;
+}
+
+.od-social-buttons-wrap .row {
+  padding: 7px 0;
+}
+
+.od-social-buttons-wrap .row .label {
+  display: inline-block;
+  width: 100px;
+}
+
+.od-social-buttons-wrap #icon-preview {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  padding: 5px 5px 0;
+  display: none;
+}
+
+.od-social-buttons-wrap #icon-preview img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.od-social-buttons-wrap .remove-custom-icon {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.od-social-buttons-wrap .remove-custom-icon:hover {
+  color: #ababab;
+}

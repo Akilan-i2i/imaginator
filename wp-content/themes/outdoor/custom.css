@@ -1,0 +1,72 @@
+/***************************************************************************************
+ * If you want to write the custom css style please write here.
+ **************************************************************************************/
+/*-------------------- Fonts ------------------------------*/
+@font-face {
+font-family: CiutadellaRounded-Bold;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-Bold.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-BoldIt;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-BoldIt.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-Light;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-Light.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-LightIt;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-LightIt.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-Medium;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-Medium.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-MediumIt;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-MediumIt.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-Regular;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-Regular.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-RegularIt;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-RegularIt.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-SemiBold;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-SemiBold.otf") format("opentype");
+}
+@font-face {
+font-family: CiutadellaRounded-SemiBoldIt;
+src: url("assets/fonts/CiutadellaRounded/Emtype Foundry - CiutadellaRounded-SemiBoldIt.otf") format("opentype");
+}
+/*-------------------- /Fonts ------------------------------*/
+
+.no-margin {margin-left:0px !important; margin-right:0px !important;}
+.text-color-default {color: #989898 !important;}
+#menu button, #menu button:hover { border-color: rgba(126, 41, 132, 0.6) !important; color: rgb(126, 41, 132) !important;}
+/* --------------------- Pillars Learning --------------------- */
+.pillar-img-block {width:200px !important;height:290px !important}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) { .pillar-img-block {width:225px !important;height:320px !important}}
+.pillar-img-block h6 {font-family: "CiutadellaRounded-SemiBold";font-size: 20px;text-align: center;color: #7D2A86;}
+/* --------------------- /Pillars Learning --------------------- */
+
+.wpcf7 {background-color: #F48A32;}
+.wpcf7-form {margin-left: 25px;margin-right: 25px;margin-top: 25px;}
+.wpcf7-textarea {padding: 3px 12px !important;width: 100% !important;height: 100px;border-radius: 6px !important;color:#DECFE2 !important;font-weight:bold;}
+.wpcf7-input {height: 40px !important;padding: 3px 12px !important;width: 100% !important;border-radius: 6px !important;color:#DECFE2 !important;font-weight:bold;}
+.wpcf7-text {height: 42px;width: 100% !important;border-radius: 6px !important;color:#DECFE2 !important;font-weight:bold;padding: 3px 12px 0!important;}
+.wpcf7-submit {background-color: rgb(125, 42, 134);border-radius: 26px !important;color: rgb(255, 255, 255) !important;font-size: 19px;font-weight: bold;height: 42px;width: 100% !important;}
+wpcf7-select{padding: 3px 12px!important;width: 100% !important;border-radius: 6px !important;color:#DECFE2 !important;font-weight:bold !important;}
+.jq-selectbox__select {border-radius: 6px !important;text-align !important: left;width: 100% !important;text-align:left;font-weight:bold;max-width:100%;color:#DECFE2 !important;}
+.footer-left-content {padding: 19px;text-align:left;}
+.footer-center-form h6 {color: #7d2a86;padding-left: 26px;padding-top: 30px;text-align: left;}
+.footer-center-form {padding-top: 35px;}
+.aligncenter.size-full.wp-image-590 {bottom: 5%;left: 73%;position: absolute;text-align: end;width: 20%;}
+.aligncenter.size-full.wp-image-589 {text-align: left;width: 66%;}
+.footer-right-content{padding: 54px 0 0 28px;}
+.footer-fb-like {text-align: left;}
